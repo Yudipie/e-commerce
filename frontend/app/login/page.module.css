@@ -1,0 +1,113 @@
+.main{
+    background-color: rgb(237, 229, 229);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.reg_btn {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer; 
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .reg_btn:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+  }
+  
+  .reg_btn:active {
+    background-color: #052c06;
+    transform: scale(1); 
+  }
+  
+  
+.reg_form {
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 400px; 
+    margin: 20px auto; 
+  }
+  
+  
+  .reg_form input[type="text"],
+  .reg_form input[type="email"],
+  .reg_form input[type="password"] {
+    width: 100%;
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+  }
+  
+  
+  .reg_form button[type="submit"] {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .reg_form button[type="submit"]:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+  }
+  
+  .reg_form button[type="submit"]:active {
+    background-color: #3e8e41; 
+    transform: scale(1);
+  }
+  
+
+  
+.google {
+    background-color: #ffffff; 
+    color: #757575; 
+    border: 1px solid #dcdcdc; 
+    padding: 10px 20px; 
+    font-size: 20px;
+    display: flex; 
+    align-items: center; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .google:hover {
+    background-color: #f7f7f7; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .google img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .google span {
+    font-weight: 500;
+  }
+  
